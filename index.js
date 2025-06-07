@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const jobRoutes = require('./routes/job_listings_api');
 
 mongoose.connect('mongodb://localhost:27017/jobBoard');
-mongoose.Promise = glo
+mongoose.Promise = global.Promise;
 app.use(bodyParser.json());
 
 app.use('/api/job_listings', jobRoutes);
