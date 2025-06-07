@@ -20,5 +20,6 @@ const CandidateSchema = new Schema({
     required: true
   },
 });
+
 const CandidateModel = mongoose.model('Candidate', CandidateSchema);
 module.exports = CandidateModel;
