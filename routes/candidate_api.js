@@ -1,5 +1,5 @@
 const express = require('express');
-const CandidateModel = require('../models/candidate');
+const CandidateModel = require('../models/candidate_model');
 const router = express.Router();
 
 // create a candidate   
