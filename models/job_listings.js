@@ -9,12 +9,16 @@ const JobListingSchema = new Schema({
     type: String,
     required: true
   },
-  companyId: {
-    type: Schema.Types.ObjectId,
-    ref: 'Company',
+  // companyId: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: 'Company',
+  //   required: true
+  // },
+  companyId:{
+    type: String,
     required: true
   },
-  requiements: {
+  requirements: {
     type: String,
     required: true
   }
